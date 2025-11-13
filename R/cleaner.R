@@ -1,4 +1,4 @@
-#' Clean Vairables
+#' Clean Variables
 #' 
 #' @param citbi A dataset.
 #' @returns A dataset cleaned for missing values.
