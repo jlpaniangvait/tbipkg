@@ -2,6 +2,7 @@
 #' 
 #' @param citbi A dataset.
 #' @returns A dataset cleaned for missing values.
+#' @export
 cleaner <- function(citbi) {
   citbi <- citbi |>
     mutate(LocLen = ifelse(LocLen == 92, NA, LocLen), 

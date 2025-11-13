@@ -2,6 +2,7 @@
 #' 
 #' @param citbi A dataset.
 #' @returns A dataset with cleaned names.
+#' @export
 namer <- function(citbi) {
   citbi <- citbi |>
     rename(patient_number = PatNum, amnesia = Amnesia_verb, loss_of_consciousness_length = LocLen,
