@@ -2,7 +2,7 @@
 % Please edit documentation in R/cleaner.R
 \name{cleaner}
 \alias{cleaner}
-\title{Clean Vairables}
+\title{Clean Variables}
 \usage{
 cleaner(citbi)
 }
@@ -13,5 +13,5 @@ cleaner(citbi)
 A dataset cleaned for missing values.
 }
 \description{
-Clean Vairables
+Clean Variables
 }
